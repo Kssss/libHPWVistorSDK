@@ -12,16 +12,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-HPWVistorSDK1 is available through [CocoaPods](http://cocoapods.org). To install
+HPWVistorSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'libHPWVistorSDK'
+pod 'HPWVistor', '~> 2.6.8'
+'
 ```
-
-## Author
-
-
 ## License
 
 libHPWVistorSDK is available under the MIT license. See the LICENSE file for more info.
