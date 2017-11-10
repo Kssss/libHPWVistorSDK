@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "HPWVistor"
-s.version      = "2.6.8"
+s.version      = "2.6.9"
 s.summary      = "HPWVistor for 智八哥"
 
 s.description  = <<-DESC
