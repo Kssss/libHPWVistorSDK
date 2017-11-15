@@ -25,14 +25,14 @@ pod 'HPWVistor', '~> 2.6'
 
 
 ## 三、代码集成
-#### 注册公司信息到SDK
+#### （1） 注册公司信息到SDK
 
 ```js
     [[HPWVistor sharedVistor] registerCommpanyCode:@"你注册公司id"
                                             appkey:@"你配置的公司appkey"
                                        environment:HPWEnvironmentTypeRelease];
 ```
-####  视图控制器上调用SDK
+#### （2）视图控制器上调用SDK
 
 ```js
 //3、弹出访客端界面
@@ -43,7 +43,7 @@ NSLog(@"出现网络错误");
 }];
 
 ```
-### 查询会话的未读数（异步）
+#### （3）查询会话的未读数（异步）
 
 ```js
 /**
@@ -51,7 +51,7 @@ NSLog(@"出现网络错误");
 */
 - (void)queryUnreadNumMessageSucceed:(void (^)(NSInteger num))block;
 ```
-### 添加用户轨迹事件
+### （4）添加用户轨迹事件
 
 ```js
 /**
@@ -69,7 +69,7 @@ resolution:(NSString *)resolution
 sourceUrl:(NSString *)sourceUrl
 result:(void (^)())success fail:(void (^)())fail;
 ```
-### 传输访客的唯一标示到SDK
+#### （5） 传输访客的唯一标示到SDK
 ```js
 /**
 设置访客的唯一标示到SDK
