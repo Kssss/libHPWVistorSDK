@@ -38,23 +38,42 @@ pod 'HPWVistor', '~> 2.6'
 ### 查询会话的未读数（异步）
 
 ```js
-xgpush.registerPush("account",function(event){},function(event){});
+/**
+查询未读数
+*/
+- (void)queryUnreadNumMessageSucceed:(void (^)(NSInteger num))block;
 ```
 ### 添加用户轨迹事件
 
 ```js
-xgpush.registerPush("account",function(event){},function(event){});
+/**
+用户轨迹记录
+@param curUrl 当前浏览页面
+@param pageTitle 当前浏览页面标题
+@param resolution 手机分辨率
+@param sourceUrl 浏览器类型
+@param success 提交成功
+@param fail 提交失败
+*/
+- (void)addTrajectoryInfo:(NSString *)curUrl
+pageTitle:(NSString *)pageTitle
+resolution:(NSString *)resolution
+sourceUrl:(NSString *)sourceUrl
+result:(void (^)())success fail:(void (^)())fail;
 ```
 ### 传输访客的唯一标示到SDK
 ```js
-xgpush.registerPush("account",function(event){},function(event){});
+/**
+设置访客的唯一标示到SDK
+*/
+- (void)setPartnerUid:(NSString *)partnerUid;
 ```
 ## 部分控件颜色、图片自定义
 ### （1）修改图片在HappyWinBundle.bundle中修改
 ###  （2）修改控件颜色请在HPWVistorSDKConfig.h中修改
 
 ## 注意事项
-###  (1)  假如项目中包含IQKeyboardManager需要在调用showView: dismissCompletion 之前禁用IQK的功能，然后在Dismissblock回调或者fail时候启用IQK。
+### （1）假如项目中包含IQKeyboardManager需要在调用showView: dismissCompletion 之前禁用IQK的功能，然后在Dismissblock回调或者fail时候启用IQK。
 ### （2）在Xcode 9.x中由于导入的第三方库和bundle可能不会自动加入编译过程，所以需要手动拖入。
 ### （3）在项目中开起摄像头、相册、麦克风权限。
 ```js
