@@ -51,7 +51,7 @@ NSLog(@"出现网络错误");
 */
 - (void)queryUnreadNumMessageSucceed:(void (^)(NSInteger num))block;
 ```
-### （4）添加用户轨迹事件
+#### （4）添加用户轨迹事件
 
 ```js
 /**
