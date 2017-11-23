@@ -1,4 +1,4 @@
-# libHPWVistorSDK
+x# libHPWVistorSDK
 
 
 [![Version](https://img.shields.io/cocoapods/v/HPWVistorSDK1.svg?style=flat)](http://cocoapods.org/pods/libHPWVistorSDK)
