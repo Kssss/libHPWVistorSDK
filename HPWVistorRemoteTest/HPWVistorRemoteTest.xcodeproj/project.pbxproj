@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE5E038C1FC7BF0600333785 /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE5E038B1FC7BF0600333785 /* demo.jpg */; };
+		DE5E038E1FC7F58400333785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5E038D1FC7F58400333785 /* Assets.xcassets */; };
+		DEA6ADAC1FB976410053D68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA6ADAB1FB976410053D68C /* AppDelegate.m */; };
+		DEA6ADB71FB976410053D68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6ADB51FB976410053D68C /* LaunchScreen.storyboard */; };
+		DEA6ADBA1FB976410053D68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA6ADB91FB976410053D68C /* main.m */; };
+		DEA6ADC21FB977A50053D68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6ADC01FB977A50053D68C /* Main.storyboard */; };
+		DEA6ADC51FB977E00053D68C /* TYHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA6ADC41FB977DF0053D68C /* TYHLoginViewController.m */; };
+		EBDCE85D1B2F8A0EE461E52E /* libPods-HPWVistorRemoteTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8564998569BF6DF2266E3B6 /* libPods-HPWVistorRemoteTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DE54B21ED17BDDA8854B7DF /* Pods-HPWVistorRemoteTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPWVistorRemoteTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPWVistorRemoteTest/Pods-HPWVistorRemoteTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B0438248B6D768AF491ABD /* Pods-HPWVistorRemoteTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPWVistorRemoteTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPWVistorRemoteTest/Pods-HPWVistorRemoteTest.release.xcconfig"; sourceTree = "<group>"; };
+		D8564998569BF6DF2266E3B6 /* libPods-HPWVistorRemoteTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPWVistorRemoteTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5E038B1FC7BF0600333785 /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+		DE5E038D1FC7F58400333785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA6ADA71FB976410053D68C /* HPWVistorRemoteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPWVistorRemoteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6ADAA1FB976410053D68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEA6ADAB1FB976410053D68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEA6ADB61FB976410053D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA6ADB81FB976410053D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6ADB91FB976410053D68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEA6ADC11FB977A50053D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA6ADC31FB977DF0053D68C /* TYHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHLoginViewController.h; sourceTree = "<group>"; };
+		DEA6ADC41FB977DF0053D68C /* TYHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHLoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA6ADA41FB976410053D68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDCE85D1B2F8A0EE461E52E /* libPods-HPWVistorRemoteTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44917F208AC5B46277702EDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE54B21ED17BDDA8854B7DF /* Pods-HPWVistorRemoteTest.debug.xcconfig */,
+				C6B0438248B6D768AF491ABD /* Pods-HPWVistorRemoteTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		695D55B1C183C8B1AD50D85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8564998569BF6DF2266E3B6 /* libPods-HPWVistorRemoteTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA6AD9E1FB976410053D68C = {
+			isa = PBXGroup;
+			children = (
+				DEA6ADA91FB976410053D68C /* HPWVistorRemoteTest */,
+				DEA6ADA81FB976410053D68C /* Products */,
+				44917F208AC5B46277702EDF /* Pods */,
+				695D55B1C183C8B1AD50D85C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA6ADA81FB976410053D68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6ADA71FB976410053D68C /* HPWVistorRemoteTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA6ADA91FB976410053D68C /* HPWVistorRemoteTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE5E038D1FC7F58400333785 /* Assets.xcassets */,
+				DEA6ADC31FB977DF0053D68C /* TYHLoginViewController.h */,
+				DEA6ADC41FB977DF0053D68C /* TYHLoginViewController.m */,
+				DEA6ADC01FB977A50053D68C /* Main.storyboard */,
+				DEA6ADAA1FB976410053D68C /* AppDelegate.h */,
+				DEA6ADAB1FB976410053D68C /* AppDelegate.m */,
+				DEA6ADB51FB976410053D68C /* LaunchScreen.storyboard */,
+				DEA6ADB81FB976410053D68C /* Info.plist */,
+				DEA6ADB91FB976410053D68C /* main.m */,
+				DE5E038B1FC7BF0600333785 /* demo.jpg */,
+			);
+			path = HPWVistorRemoteTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA6ADA61FB976410053D68C /* HPWVistorRemoteTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6ADBD1FB976410053D68C /* Build configuration list for PBXNativeTarget "HPWVistorRemoteTest" */;
+			buildPhases = (
+				63EF85A238F0783754CC4C43 /* [CP] Check Pods Manifest.lock */,
+				DEA6ADA31FB976410053D68C /* Sources */,
+				DEA6ADA41FB976410053D68C /* Frameworks */,
+				DEA6ADA51FB976410053D68C /* Resources */,
+				58DBF88567E54F90C9E5648D /* [CP] Embed Pods Frameworks */,
+				49B8FA6D53C16E61277527C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPWVistorRemoteTest;
+			productName = HPWVistorRemoteTest;
+			productReference = DEA6ADA71FB976410053D68C /* HPWVistorRemoteTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA6AD9F1FB976410053D68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = www.71chat.com;
+				TargetAttributes = {
+					DEA6ADA61FB976410053D68C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DEA6ADA21FB976410053D68C /* Build configuration list for PBXProject "HPWVistorRemoteTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA6AD9E1FB976410053D68C;
+			productRefGroup = DEA6ADA81FB976410053D68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA6ADA61FB976410053D68C /* HPWVistorRemoteTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA6ADA51FB976410053D68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6ADC21FB977A50053D68C /* Main.storyboard in Resources */,
+				DE5E038C1FC7BF0600333785 /* demo.jpg in Resources */,
+				DE5E038E1FC7F58400333785 /* Assets.xcassets in Resources */,
+				DEA6ADB71FB976410053D68C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49B8FA6D53C16E61277527C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HPWVistorRemoteTest/Pods-HPWVistorRemoteTest-resources.sh",
+				"${PODS_ROOT}/HPWVistor/HPWSDK/Resources/HappyWinBundle.bundle",
+				"${PODS_ROOT}/HPWVistor/HPWSDK/Resources/LYTChatProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPWVistorRemoteTest/Pods-HPWVistorRemoteTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DBF88567E54F90C9E5648D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPWVistorRemoteTest/Pods-HPWVistorRemoteTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63EF85A238F0783754CC4C43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPWVistorRemoteTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA6ADA31FB976410053D68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6ADBA1FB976410053D68C /* main.m in Sources */,
+				DEA6ADAC1FB976410053D68C /* AppDelegate.m in Sources */,
+				DEA6ADC51FB977E00053D68C /* TYHLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEA6ADB51FB976410053D68C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA6ADB61FB976410053D68C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA6ADC01FB977A50053D68C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA6ADC11FB977A50053D68C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA6ADBB1FB976410053D68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEA6ADBC1FB976410053D68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA6ADBE1FB976410053D68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE54B21ED17BDDA8854B7DF /* Pods-HPWVistorRemoteTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDH66RGJXX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HPWVistorRemoteTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1chat.HPWVistorRemoteTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA6ADBF1FB976410053D68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B0438248B6D768AF491ABD /* Pods-HPWVistorRemoteTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDH66RGJXX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HPWVistorRemoteTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1chat.HPWVistorRemoteTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA6ADA21FB976410053D68C /* Build configuration list for PBXProject "HPWVistorRemoteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6ADBB1FB976410053D68C /* Debug */,
+				DEA6ADBC1FB976410053D68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA6ADBD1FB976410053D68C /* Build configuration list for PBXNativeTarget "HPWVistorRemoteTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6ADBE1FB976410053D68C /* Debug */,
+				DEA6ADBF1FB976410053D68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA6AD9F1FB976410053D68C /* Project object */;
+}

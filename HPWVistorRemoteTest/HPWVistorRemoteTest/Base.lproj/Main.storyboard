@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MhK-gX-qvF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TYHLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L8X-zS-kVq">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZA-wm-ZnW">
+                                <rect key="frame" x="9" y="78" width="100" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8lh-L6-8bI"/>
+                                    <constraint firstAttribute="height" constant="40" id="p6x-Qq-UoZ"/>
+                                </constraints>
+                                <state key="normal" title="设置用户ID">
+                                    <color key="titleColor" red="0.0" green="0.56470588239999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="setUserID:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yVn-6q-aUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XS8-kK-GV5">
+                                <rect key="frame" x="9" y="126" width="100" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Uqc-xu-D1p"/>
+                                    <constraint firstAttribute="width" constant="100" id="f9B-gQ-D1s"/>
+                                </constraints>
+                                <state key="normal" title="轨迹事件1">
+                                    <color key="titleColor" red="0.0" green="0.56470588239999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="something1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSG-yr-OAM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scx-TC-cqV">
+                                <rect key="frame" x="9" y="181" width="100" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="FGD-vL-yey"/>
+                                    <constraint firstAttribute="height" constant="40" id="h1e-mC-8mV"/>
+                                </constraints>
+                                <state key="normal" title="轨迹事件2">
+                                    <color key="titleColor" red="0.0" green="0.56470588239999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="something2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zhs-wv-45r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3R-48-uGe">
+                                <rect key="frame" x="50" y="516" width="275" height="50"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.83921568629999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rSb-tm-2hK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="登陆SDK"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5q5-hf-D4n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gO-r1-vtv">
+                                <rect key="frame" x="9" y="237" width="100" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8Yo-GC-Yep"/>
+                                    <constraint firstAttribute="height" constant="40" id="xQR-xU-dOW"/>
+                                </constraints>
+                                <state key="normal" title="清除轨迹">
+                                    <color key="titleColor" red="0.0" green="0.56470588239999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearGuiji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ccl-ei-5oh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2ZA-wm-ZnW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="8IC-VH-czW"/>
+                            <constraint firstItem="L8X-zS-kVq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9h5-aV-R1n"/>
+                            <constraint firstItem="Scx-TC-cqV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="CHf-xA-39t"/>
+                            <constraint firstItem="XS8-kK-GV5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="F2M-rS-lFG"/>
+                            <constraint firstItem="L8X-zS-kVq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Isd-t0-oAK"/>
+                            <constraint firstItem="XS8-kK-GV5" firstAttribute="top" secondItem="2ZA-wm-ZnW" secondAttribute="bottom" constant="8" id="Jk9-6O-GMZ"/>
+                            <constraint firstItem="u3R-48-uGe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="LAH-YG-JZh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u3R-48-uGe" secondAttribute="bottom" constant="101" id="Pke-wF-c0M"/>
+                            <constraint firstItem="2ZA-wm-ZnW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="auP-7J-No3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="L8X-zS-kVq" secondAttribute="bottom" id="gsw-OB-9IF"/>
+                            <constraint firstAttribute="trailing" secondItem="L8X-zS-kVq" secondAttribute="trailing" id="jNh-BU-N6x"/>
+                            <constraint firstAttribute="trailing" secondItem="u3R-48-uGe" secondAttribute="trailing" constant="50" id="kAk-HB-qNJ"/>
+                            <constraint firstItem="9gO-r1-vtv" firstAttribute="top" secondItem="Scx-TC-cqV" secondAttribute="bottom" constant="16" id="oYq-ge-o5a"/>
+                            <constraint firstItem="Scx-TC-cqV" firstAttribute="top" secondItem="XS8-kK-GV5" secondAttribute="bottom" constant="15" id="sc1-u2-nk0"/>
+                            <constraint firstItem="9gO-r1-vtv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="v15-3g-WZb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pAA-SL-BFn"/>
+                    <connections>
+                        <outlet property="loginBtn" destination="u3R-48-uGe" id="UY3-Xd-UlE"/>
+                        <outlet property="something1" destination="XS8-kK-GV5" id="MGj-TP-zmB"/>
+                        <outlet property="something2" destination="Scx-TC-cqV" id="UYb-S4-dil"/>
+                        <outlet property="userID" destination="2ZA-wm-ZnW" id="rjL-5B-KU2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="-3.1484257871064472"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Oh8-Y9-oAT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MhK-gX-qvF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6V7-dl-bDT">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VzH-7x-l6h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D5O-yp-Kbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-335.19999999999999" y="-3.1484257871064472"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="demo.jpg" width="450" height="750"/>
+    </resources>
+</document>
