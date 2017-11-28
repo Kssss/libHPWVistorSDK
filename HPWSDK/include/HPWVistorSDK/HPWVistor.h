@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, HPWEnvironmentType) {
 
 #pragma mark - 必要设置
 /**
- 乐盈通SDK单例（请使用单例调用）
+ 智八哥SDK单例（请使用单例调用）
  */
 + (instancetype)sharedVistor;
 - (instancetype)init UNAVAILABLE_ATTRIBUTE;
